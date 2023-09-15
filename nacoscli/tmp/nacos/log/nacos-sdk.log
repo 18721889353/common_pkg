@@ -1,0 +1,7 @@
+2023-09-14T18:26:53.810+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<./tmp/nacos/log>   cacheDir:<./tmp/nacos/cache>
+2023-09-14T18:35:35.981+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<./tmp/nacos/log>   cacheDir:<./tmp/nacos/cache>
+2023-09-14T18:35:36.512+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:platform_admin_user_srv.jsondevd956cf164fa3a8e554006fffbe189294a3143e55-cd06-4379-9875-4a106bdd527f tenant:a3143e55-cd06-4379-9875-4a106bdd527f] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 Long-Pulling-Timeout-No-Hangup:true accessKey: secretKey:] 
+
+2023-09-14T18:35:36.519+0800	[34mINFO[0m	config_client/config_client.go:433	[client.ListenConfig] no change
+2023-09-14T18:35:36.543+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:platform_admin_user_srv.jsondevd956cf164fa3a8e554006fffbe189294a3143e55-cd06-4379-9875-4a106bdd527f tenant:a3143e55-cd06-4379-9875-4a106bdd527f] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+

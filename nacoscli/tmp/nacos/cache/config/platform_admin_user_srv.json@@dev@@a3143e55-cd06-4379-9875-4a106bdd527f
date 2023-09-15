@@ -1,0 +1,56 @@
+{
+  "name": "platform_admin_user_srv",
+  "host": "192.168.132.128",
+  "tags": [
+    "imooc",
+    "bobby",
+    "user",
+    "srv"
+  ],
+  "consul": {
+    "host": "127.0.0.1",
+    "port": 8500
+  },
+  "Log": {
+    "Level": "debug",
+    "SqlLevel": "info",
+    "LogName": "platform_admin_user_srv.log",
+    "SqlLogName": "platform_admin_user_srv_sql.log",
+    "TextFormat": "json",
+    "TimePrecision": "millisecond",
+    "MaxSize": 50,
+    "MaxBackups": 300,
+    "MaxAge": 30,
+    "Compress": false
+  },
+  "Gormv2": {
+    "IsInitGlobalGormMysql": 1,
+    "SlowThreshold": 3,
+    "LogLevel": 4,
+    "IgnoreRecordNotFoundError": true,
+    "Prefix": "tb_",
+    "Write": {
+      "Host": "127.0.0.1",
+      "DataBase": "shop",
+      "Port": 3306,
+      "User": "root",
+      "Pass": "jianguo123",
+      "Charset": "utf8mb4",
+      "SetMaxIdleConns": 20,
+      "SetMaxOpenConns": 128,
+      "SetConnMaxLifetime": 60
+    },
+    "IsOpenReadDb": 1,
+    "Read": {
+      "Host": "127.0.0.1",
+      "DataBase": "shop",
+      "Port": 3306,
+      "User": "root",
+      "Pass": "jianguo123",
+      "Charset": "utf8mb4",
+      "SetMaxIdleConns": 20,
+      "SetMaxOpenConns": 128,
+      "SetConnMaxLifetime": 60
+    }
+  }
+}
